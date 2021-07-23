@@ -88,7 +88,7 @@ class CustomLogic(AppLogic):
                 for format in self.img_format:
                     for filename in glob.glob(f'{self.ds_dir}/{folder}/*.{format}'):  # assuming gif
                         self.samples.append(Image.open(filename))
-                        self.labels.append(df[df.name == filename.strip().split('/')[-1]].label.values)
+                        self.labels.append(df[df.name == filename.strip().split('/')[-1]].label.values.item())
         else:  # labels on folder name
             labels_folders = []
             for folder in glob.glob(f'{self.ds_dir}/*/'):

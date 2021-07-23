@@ -7,11 +7,12 @@ steps without communicating with the coordinator.
 ## Input
 - path to the directory including images  
 - image formats to be searched for in the directory
-- label_file: labels of images, which can be either in a file inside the directory or the name of the directory that includes images
-The labels file could be in .csv or .txt extension, in both cases first line should be 'names, labels'
-  and the separator of ',' should be used!   
+- label_file: labels of images, which can be either in a file inside the directory,
+  or the name of the directory that includes images.
+  The labels file could be in .csv or .txt extension, 
+  in both cases first line should be 'name,label', and the separator of ',' should be used!   
 ## Output
-- dataset.npy: inclduing [image sample, labels]
+- dataset.npy: including [image sample, labels]
 
 ## Preprocessing
 

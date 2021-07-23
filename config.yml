@@ -1,5 +1,5 @@
 fc_image_loader:
-  ds_dir: 'ds' # or file_name: (.txt or .csv with first row of 'names, labels')
+  ds_dir: 'ds' # directory or file_name: (.txt or .csv with first row of 'names, labels')
   image_format:
     - 'jpeg'
     - 'png'

@@ -1,0 +1,6 @@
+bottle
+numpy
+jsonpickle
+bios
+pandas
+Pillow

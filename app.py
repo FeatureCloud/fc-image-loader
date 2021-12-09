@@ -42,7 +42,7 @@ class ImgLoader(ConfigState.State):
 
     def load_images(self, ds_dir):
         image_formats = self.config['local_dataset']['image_format']
-        if not isinstance(list, image_formats):
+        if not isinstance(image_formats, list):
             self.log(f"image formats should listed; even there is only one item!\n"
                      f"e.g., [jpeg]", LogLevel.ERROR)
             self.update(state=op_state.ERROR)

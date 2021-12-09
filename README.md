@@ -46,4 +46,4 @@ fc_image_loader:
 ```
 Options for `local_dataset` are very similar to the
 [cross-validation](https://github.com/FeatureCloud/fc-cross-validation/tree/Numpy#input) and
-[data distributor](../DataDistributor/README.md#config) apps.
+[data distributor](https://github.com/FeatureCloud/fc-data-distributor#config) apps.

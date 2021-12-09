@@ -1,6 +1,10 @@
 bottle
-numpy
 jsonpickle
+joblib
+numpy
 bios
+pydot
+pyyaml
 pandas
 Pillow
+FeatureCloud==0.0.4

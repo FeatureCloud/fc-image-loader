@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build . --tag featureclud.ai/image_loader
+docker build . --tag featurecloud.ai/image_loader

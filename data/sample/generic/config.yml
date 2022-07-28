@@ -1,0 +1,16 @@
+image_loader:
+  local_dataset:
+    ds_dir: ds
+    image_format: [jpeg]
+    target_value: dir
+    sep: ','
+  image_resize:
+    width: 28
+    height: 28
+  image_crop:
+    x_coordinate: 0
+    y_coordinate: 0
+    width: 28
+    height: 28
+  result:
+    data: dataset.npy
